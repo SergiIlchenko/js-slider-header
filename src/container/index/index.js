@@ -79,7 +79,7 @@ class Header {
       '.header__wrapper',
     )
 
-    this.#bottom = document.querySelector('.header__bottom')
+    this.#button = document.querySelector('.header__button')
 
     this.#button.onclick = this.#toggle
   }
